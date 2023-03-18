@@ -16,7 +16,7 @@ total = int(input("Введите количество монет: "))
 tails = 0
 eagle = 0
 for i in range(total):
-    side = int(input("Введите сторону монеты ,еслиорел то 1 ,а если решка то 0: "))
+    side = int(input("Введите сторону монеты ,если орел то 1 ,а если решка то 0: "))
     if side:
         eagle += 1
     else:
