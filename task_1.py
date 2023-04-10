@@ -22,7 +22,7 @@ for i in list_1:
 if len(list_result) == 0:
     print("Нет повторяющихся значений!")
 else:
-    print(list_result)
+    print(" ".join(map(str, list_result)))
     
     
         
